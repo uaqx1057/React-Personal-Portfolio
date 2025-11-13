@@ -1,17 +1,17 @@
 import { useRef } from 'react';
 
 const GlareHover = ({
-  width = '100%',
-  height = '100%',
-  background = '#fff',
+  width = '500px',
+  height = '500px',
+  background = '#000',
   borderRadius = '10px',
-  borderColor = '#e5e7eb',
+  borderColor = '#333',
   children,
   glareColor = '#ffffff',
-  glareOpacity = 0.3,
-  glareAngle = -30,
-  glareSize = 400,
-  transitionDuration = 800,
+  glareOpacity = 0.5,
+  glareAngle = -45,
+  glareSize = 250,
+  transitionDuration = 650,
   playOnce = false,
   className = '',
   style = {}
@@ -83,9 +83,7 @@ const GlareHover = ({
       onMouseLeave={animateOut}
     >
       <div ref={overlayRef} style={overlayStyle} />
-      <div className="relative z-10 w-full h-full">
-        {children}
-      </div>
+      {children}
     </div>
   );
 };

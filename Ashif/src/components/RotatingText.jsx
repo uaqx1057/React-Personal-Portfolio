@@ -16,7 +16,7 @@ const RotatingText = forwardRef((props, ref) => {
     exit = { y: '-180%', opacity: 0 },
     animatePresenceMode = 'wait',
     animatePresenceInitial = false,
-    rotationInterval = 3000,
+    rotationInterval = 4000,
     staggerDuration = 0,
     staggerFrom = 'first',
     loop = true,

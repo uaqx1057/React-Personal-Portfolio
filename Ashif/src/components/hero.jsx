@@ -2,12 +2,13 @@ import React from 'react';
 import Spline from '@splinetool/react-spline';
 import { ArrowRight } from 'lucide-react';
 import RotatingText from './RotatingText';
+import { SparklesText } from "@/components/ui/sparkles-text";
 
 /**
  * A modern, minimal hero section component.
  */
 export default function Hero() {
-  const skills = ['UI/UX Design', 'Frontend Dev', 'Backend Dev', 'Creative Coder'];
+  const skills = ['UI/UX Designer', 'Frontend Developer', 'Backend Developer', 'Creative Coder'];
 
   return (
     <section className="relative w-full h-screen overflow-hidden">
@@ -24,7 +25,7 @@ export default function Hero() {
       <div className="relative z-20 flex items-center justify-center w-full h-full p-8 text-center bg-black/20 pointer-events-none sm:p-16 md:p-24">
         <div className="max-w-md pointer-events-auto">
           <h1 className="font-pixel text-5xl font-bold text-white whitespace-nowrap md:text-7xl lg:text-8xl [text-shadow:_0_3px_5px_rgb(0_0_0_/_40%)]">
-            Ashif Elahi
+            <SparklesText>Hello, I'm</SparklesText>
           </h1>
           
           {/* Rotating Text for Skills */}
