@@ -33,7 +33,7 @@ export default function Skills() {
         <div className="inline-block mb-12">
           <h2 className="text-5xl font-bold font-pixel inline-block">
             <Highlighter action="underline" color="#FFD700">
-              My TechStack 👀
+              My TechStacks 👀
             </Highlighter>
           </h2>
         </div>

@@ -13,6 +13,7 @@ import project5Img from '../assets/projects/project5.png';
 import project6Img from '../assets/projects/project6.png';
 import project7Img from '../assets/projects/project7.png';
 import project8Img from '../assets/projects/project8.png';
+import project9Img from '../assets/projects/project9.png';
 import { Truck } from 'lucide-react';
 
 // --- Data for the projects ---
@@ -32,7 +33,7 @@ const projectData = [
         imageUrl: project7Img,
         liveUrl: '#',
         repoUrl: '#',
-        tags: ['React', 'Tailwind CSS'],
+        tags: ['React', 'Tailwind CSS', 'GSAP', 'Spline', 'Framer Motion', 'Lenis'],
     },
     {
         title: 'ONS Trading Application',
@@ -78,12 +79,20 @@ const projectData = [
         tags: ['React', 'Express'],
     },
     {
-        title: 'Project Management Tool',
-        description: 'A project management tool built with MERN stack.',
+        title: 'Janaewa',
+        description: 'A NGO website built with HTML, CSS and JavaScript.',
         imageUrl: project8Img,
-        liveUrl: '#',
+        liveUrl: 'https://janasewa.org',
         repoUrl: '#',
-        tags: ['MongoDB', 'Express', 'React', 'Node.js'],
+        tags: ['HTML', 'CSS', 'JavaScript'],
+    },
+        {
+        title: 'Earmacs',
+        description: 'A Hotel Management website built with Wordpress and PHP.',
+        imageUrl: project9Img,
+        liveUrl: 'https://earmacs.com',
+        repoUrl: '#',
+        tags: ['Wordpress', 'PHP'],
     },
 ];
 
@@ -165,7 +174,7 @@ export default function Projects() {
                 <div className="text-center mb-12">
                     <h2 className="text-5xl font-bold font-pixel underline-wavy-yellow inline-block">
                         <Highlighter action="underline" color="#FFD700">
-                            My Projects 🚀
+                            Projects 🚀
                         </Highlighter>
                     </h2>
                 </div>

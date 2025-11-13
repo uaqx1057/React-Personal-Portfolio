@@ -7,6 +7,8 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Certifications from './components/Certifications';
+import Education from './components/Education';
 import SocialMagnet from './components/SocialMagnet';
 import ContactForm from './components/ContactForm';
 import { SmoothCursor } from './components/ui/smooth-cursor';
@@ -48,7 +50,9 @@ function App() {
         <Hero />
         <About />
         <Skills />
+        {/* <Education /> */}
         <Projects />
+        <Certifications />
         <ContactForm />
         <SocialMagnet />
       </main>
