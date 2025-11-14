@@ -11,7 +11,7 @@ This is a personal portfolio website built with React, Vite, and other modern we
 
 Live Demo: https://ashifelahi.netlify.app/
 
-![App Screenshot](https://github.com/Deadcoder001/AshifPf/blob/main/Screenshot.png)
+![App Screenshot](https://github.com/Deadcoder001/AshifPf/blob/main/screen.gif)
 
 
 
