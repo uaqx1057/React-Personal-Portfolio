@@ -17,7 +17,7 @@ export default function Education() {
           <div className="relative flex max-w-lg mx-auto flex-col items-center justify-center overflow-hidden rounded-lg border bg-background p-4">
             <Tree
               className="w-full bg-background overflow-hidden rounded-md"
-              initialExpandedItems={["Education", "KU", "MC", "BA", "BHS", "Certifications", "Cisco", "IBM", "AWS"]}
+              initialExpandedItems={["Education", "KU", "MC", "BA", "BHS", "Certifications"]}
             >
               <Folder element="My Education" value="Education">
                 <Folder element="Kaziranga University" value="KU">

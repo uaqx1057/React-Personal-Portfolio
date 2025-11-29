@@ -1,20 +1,26 @@
 import React, { useState } from 'react';
 import { Highlighter } from "@/components/ui/highlighter";
+// --- 1. Import your project images ---
+
 import project1Img from '../assets/projects/project1.png';
 import project2Img from '../assets/projects/project2.png';
+import project3Img from '../assets/projects/Project3.png';
+import project4Img from '../assets/projects/Project4.png';
 import project5Img from '../assets/projects/project5.png';
 import project6Img from '../assets/projects/project6.png';
 import project7Img from '../assets/projects/project7.png';
 import project8Img from '../assets/projects/project8.png';
 import project9Img from '../assets/projects/project9.png';
+import { Truck } from 'lucide-react';
 
-// Use the same data structure as Projects.jsx, including videoUrl
+// --- Data for the projects ---
 const projectData = [
     {
         title: 'Sahityaa Sangamm',
         description: 'A modern e-commerce platform built with Blade and Laravel.',
+        // Use your Cloudinary video URL here:
         videoUrl: 'https://res.cloudinary.com/dktapziq9/video/upload/v1764394626/1764393871242766_dqfnqn.mp4',
-        imageUrl: project1Img,
+        imageUrl: project1Img, // optional fallback
         liveUrl: 'https://sahityaasangamm.in',
         repoUrl: '#',
         tags: ['Blade', 'Laravel', 'MySQL'],
@@ -38,6 +44,42 @@ const projectData = [
         tags: ['Django', 'yfinance', 'Bootstrap 5'],
     },
     {
+        title: 'Creatorhub',
+        description: 'An Influencer Marketing platform for Creators and brands built with React.',
+        videoUrl: 'https://res.cloudinary.com/dktapziq9/video/upload/v1764396382/1764396334647746_qruqaf.mp4',
+
+        liveUrl: 'https://creatorhub.in',
+        repoUrl: '#',
+        tags: ['React', 'Node.js', 'MongoDB'],
+    },
+    {
+        title: 'Tea Country',
+        description: 'A Tourist website created with React.',
+        // --- 2. Use the imported variable here ---
+        imageUrl: project2Img,
+        liveUrl: 'https://teacountry.in',
+        repoUrl: '#',
+        tags: ['React', 'Vue', 'Tailwind CSS'],
+    },
+    // {
+    //     title: 'MeghaRise Products',
+    //     description: 'A modern e-commerce platform using React (Its Frontend Only For Now).',
+    //     // --- 2. Use the imported variable here ---
+    //     imageUrl: project3Img,
+    //     liveUrl: 'https://meghariseproducts.com',
+    //     repoUrl: '#',
+    //     tags: ['React', 'Vue', 'Tailwind CSS'],
+    // },
+    {
+        title: 'Scabbard Tech',
+        description: 'A Digital Marketing website built with React, Vue and Tailwind CSS.',
+        videoUrl: 'https://res.cloudinary.com/dktapziq9/video/upload/v1764397211/1764397136159111_zlcckk.mp4',
+        liveUrl: 'https://scabbardtech.com',
+        repoUrl: '#',
+        tags: ['React', 'Vue', 'Tailwind CSS'],
+    },
+
+        {
         title: 'Jana Kalyan Swastha sewa',
         description: 'A Healthcare website built with HTML and php.',
         imageUrl: project6Img,
@@ -53,7 +95,7 @@ const projectData = [
         repoUrl: '#',
         tags: ['HTML', 'CSS', 'JavaScript'],
     },
-    {
+        {
         title: 'Earmacs',
         description: 'A Hotel Management website built with Wordpress and PHP.',
         imageUrl: project9Img,
