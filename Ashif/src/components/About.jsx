@@ -22,7 +22,7 @@ export default function About({ scrollContainerRef }) {
           containerClassName="my-12"
           textClassName="font-sans text-base sm:text-lg md:text-xl"
         >
-          I am a passionate Full-Stack Developer and Creative Coder with a knack for building beautiful, functional, and user-centric web applications. With a strong foundation in both frontend and backend technologies, I enjoy bringing ideas to life, from the initial UI/UX concept to the final deployment. My goal is to create seamless digital experiences that are both engaging and efficient.
+         I enjoy working with motion, interaction, and web aesthetics — exploring how small details, smooth transitions, and creative visuals can shape a better experience. A lot of my work revolves around experimenting with layouts, animation, and timing, and finding that balance where things not only look good but also feel natural to use. From early visual ideas to refined interfaces, I like focusing on flow, usability, and the tiny moments that make a project feel cohesive and intentional. The goal is always the same — create experiences that feel smooth, engaging, and meaningful rather than just functional.
         </ScrollReveal>
       </div>
     </section>
