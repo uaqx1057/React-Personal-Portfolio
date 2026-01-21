@@ -5,6 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Hero from './components/hero';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import ProjectsMobile from './components/ProjectsMobile';
@@ -75,6 +76,7 @@ function App() {
       <main>
         <Hero isArabic={isArabic} />
         <About isArabic={isArabic} />
+        <Experience isArabic={isArabic} />
         <Skills isArabic={isArabic} />
         <Education isArabic={isArabic} />
         {isMobile ? <ProjectsMobile isArabic={isArabic} /> : <Projects isArabic={isArabic} />}

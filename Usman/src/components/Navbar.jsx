@@ -37,6 +37,13 @@ export default function Navbar({ isArabic = false }) {
             {isArabic ? 'من أنا' : 'About'}
           </a>
           <a
+            href="#experience"
+            onClick={e => handleNavClick(e, 'experience')}
+            className="transition hover:text-white"
+          >
+            {isArabic ? 'الخبرات' : 'Experience'}
+          </a>
+          <a
             href="#projects"
             onClick={e => handleNavClick(e, 'projects')}
             className="transition hover:text-white"
