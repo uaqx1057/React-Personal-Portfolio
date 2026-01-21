@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
+import SkillsDetailed from './components/SkillsDetailed';
 import Projects from './components/Projects';
 import ProjectsMobile from './components/ProjectsMobile';
 import Certifications from './components/Certifications';
@@ -78,6 +79,7 @@ function App() {
         <About isArabic={isArabic} />
         <Experience isArabic={isArabic} />
         <Skills isArabic={isArabic} />
+        <SkillsDetailed isArabic={isArabic} />
         <Education isArabic={isArabic} />
         {isMobile ? <ProjectsMobile isArabic={isArabic} /> : <Projects isArabic={isArabic} />}
         {/* <Certifications /> */}
